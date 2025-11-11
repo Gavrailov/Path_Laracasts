@@ -1,0 +1,5 @@
+Separeted php and html code, html - template (dumbing template)
+1 File for php logic 
+1 for the View or the html 
+
+It's key to separate the logic (php code) from the view (html logic)

@@ -1,21 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-full" bg-gray-100>
     <head>
         <meta charset="UTF-8">
         <title>Demo</title>
+        <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-<!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
-<!--
-  This example requires updating your template:
+<body class="h-full">
 
-  ```
-  <html class="h-full bg-gray-900">
-  <body class="h-full">
-  ```
--->
 <div class="min-h-full">
   <nav class="bg-gray-800/50">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -50,7 +42,7 @@
               <button class="relative flex max-w-xs items-center rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
                 <span class="absolute -inset-1.5"></span>
                 <span class="sr-only">Open user menu</span>
-                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-8 rounded-full outline -outline-offset-1 outline-white/10" />
+                <img src="CatG.png" alt="" class="size-8 rounded-full object-cover object-center outline -outline-offset-1 outline-white/10" />
               </button>
 
               <el-menu anchor="bottom end" popover class="w-48 origin-top-right rounded-md bg-gray-800 py-1 outline-1 -outline-offset-1 outline-white/10 transition transition-discrete [--anchor-gap:--spacing(2)] data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in">
@@ -119,7 +111,7 @@
   </header>
   <main>
     <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-      <!-- Your content -->
+      <p> Yo, welcome to the home page my G </p>
     </div>
   </main>
 </div>
